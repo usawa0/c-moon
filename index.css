@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(16, 16, 90);
+}
+
+#field {
+  position: fixed;
+  width: 90%;
+  height: 70%;
+  border: 20px solid rgb(255, 0, 255);
+  background-color: darkslateblue;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+#moon {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  left: 0;
+  top: 0;
+  transition: all 1s;
+}
